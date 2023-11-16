@@ -1,0 +1,54 @@
+.home-container {
+  padding: 40px;
+  background-image:url('https://backgroundabstract.com/wp-content/uploads/edd/2022/02/5594016-e1656071131636.jpg');
+  height: 100vh;
+  background-size: cover;
+}
+
+.home-heading {
+  color: #000000;
+  font-family: 'Roboto';
+  font-size: 50px;
+}
+
+.home-paragraph {
+  color: #000000;
+  font-family: 'Roboto';
+  font-size: 25px;
+  width: 50%;
+}
+
+.home-jobs-button {
+  color: #000000;
+  background-color: #e7e8ea;
+  border: 2px solid black;
+  border-radius: 5px;
+  border-color: #000000;
+  width: 100px;
+  font-weight: bold;
+  font-size: 15px;
+  font-family: 'Roboto';
+  padding: 5px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.retry-btn-link {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 767px) {
+  .home-container {
+    padding: 15px;
+    flex-grow: 1;
+  }
+
+  .home-heading {
+    font-size: 25px;
+  }
+
+  .home-paragraph {
+    font-size: 20px;
+    width: 100%;
+  }
+}
